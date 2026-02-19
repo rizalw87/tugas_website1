@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Tentang Kami | Vendor Outbound Batu Malang</title>
+    <meta name="description"
+        content="Profil Vendor Outbound Batu Malang. Tim profesional dengan visi misi membawa pengalaman petualangan terbaik di Batu.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Batu Outbound Logo">
+            </a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html#layanan">Layanan</a></li>
+                <li><a href="index.html#galeri">Galeri</a></li>
+                <li><a href="about.html" class="active">Tentang Kami</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="#" class="cta-btn-nav" onclick="openWA()">Hubungi Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero about-hero">
+        <div class="container hero-content">
+            <h1>Tentang Kami</h1>
+            <p>Mendedikasikan diri untuk memberikan pengalaman petualangan luar ruang yang tak terlupakan dan penuh
+                makna.</p>
+        </div>
+    </header>
+
+    <!-- Mission & Vision -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Siapa Kami?</h2>
+                    <p>Kami adalah penyedia layanan outbound profesional yang berbasis di Kota Batu, Malang. Berdiri
+                        sejak 2015, kami telah melayani ribuan peserta dari berbagai instansi, perusahaan, sekolah, dan
+                        komunitas.</p>
+                    <br>
+                    <h3>Visi</h3>
+                    <p>Menjadi vendor outbound terdepan di Indonesia yang mengutamakan keselamatan, kesenangan, dan
+                        pembelajaran karakter.</p>
+                    <br>
+                    <h3>Misi</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle" style="color: green;"></i> Menyediakan program outbound yang
+                            kreatif dan edukatif.</li>
+                        <li><i class="fas fa-check-circle" style="color: green;"></i> Mengutamakan standar keselamatan
+                            (safety first) dalam setiap kegiatan.</li>
+                        <li><i class="fas fa-check-circle" style="color: green;"></i> Memberikan pelayanan ramah dan
+                            profesional.</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="images/about_team.svg" alt="Tim Outbound Batu Profesional">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="services" style="background-color: #f9f9f9;">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kenapa Memilih Kami?</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-user-shield service-icon"></i>
+                    <h3>Profesional & Bersertifikat</h3>
+                    <p>Fasilitator kami memiliki sertifikasi resmi dan pengalaman bertahun-tahun.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-map-marked-alt service-icon"></i>
+                    <h3>Lokasi Terbaik</h3>
+                    <p>Bekerja sama dengan berbagai venue terbaik di Batu dengan pemandangan indah.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-smile-beam service-icon"></i>
+                    <h3>Fun & Impactful</h3>
+                    <p>Kegiatan yang tidak hanya seru, tapi juga memberikan dampak positif bagi tim.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Batu Outbound">
+                    </div>
+                    <p style="max-width: 300px; color: #ccc;">Partner terbaik untuk kegiatan outbound, gathering, dan
+                        petualangan alam di Batu Malang.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Vendor Outbound Batu Malang. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-container">
+        <div id="backToTop" class="float-btn back-to-top" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <div class="float-btn wa-float" onclick="openWA()">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

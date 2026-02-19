@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d6a4f"/>
+      <stop offset="100%" style="stop-color:#40916c"/>
+    </linearGradient>
+  </defs>
+  <polygon points="15,45 30,15 45,45" fill="url(#g1)"/>
+  <polygon points="35,45 50,20 65,45" fill="#52b788" opacity="0.8"/>
+  <polygon points="25,45 40,25 55,45" fill="#74c69d" opacity="0.6"/>
+  <text x="75" y="32" font-family="Arial,sans-serif" font-weight="bold" font-size="16" fill="#2d6a4f">BATU</text>
+  <text x="75" y="48" font-family="Arial,sans-serif" font-weight="600" font-size="12" fill="#52b788" letter-spacing="3">OUTBOUND</text>
+</svg>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Blog & Artikel | Vendor Outbound Batu Malang</title>
+    <meta name="description"
+        content="Informasi terbaru seputar tips outbound, rekomendasi tempat wisata di Batu, dan kegiatan seru lainnya.">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Batu Outbound Logo">
+            </a>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="index.html#layanan">Layanan</a></li>
+                <li><a href="index.html#galeri">Galeri</a></li>
+                <li><a href="about.html">Tentang Kami</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="#" class="cta-btn-nav" onclick="openWA()">Hubungi Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero about-hero" style="height: 40vh;">
+        <div class="container hero-content">
+            <h1>Artikel & Tips</h1>
+            <p>Dapatkan inspirasi dan informasi menarik seputar dunia outbound dan wisata Batu.</p>
+        </div>
+    </header>
+
+    <!-- Blog Grid -->
+    <section class="blog-section">
+        <div class="container">
+            <!-- Search Bar (JavaScript functionality) -->
+            <div style="margin-bottom: 40px; text-align: center;">
+                <input type="text" id="searchInput" placeholder="Cari artikel..."
+                    style="padding: 10px 20px; width: 100%; max-width: 400px; border: 1px solid #ddd; border-radius: 50px;">
+            </div>
+
+            <div class="blog-grid" id="blogContainer">
+                <!-- Blog 1 -->
+                <article class="blog-card" data-title="Tips Memilih Paket Outbound Kantor">
+                    <div class="blog-img">
+                        <img src="images/blog1.svg" alt="Tips Outbound">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 10 Feb 2026 | Tips</div>
+                        <h3>5 Tips Memilih Paket Outbound Kantor yang Tepat</h3>
+                        <p>Jangan salah pilih! Simak tips penting agar acara gathering kantor Anda sukses dan berkesan.
+                        </p>
+                        <a href="blog-detail-1.html" class="read-more">Baca Selengkapnya <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog 2 -->
+                <article class="blog-card" data-title="Manfaat Rafting untuk Kesehatan Mental">
+                    <div class="blog-img">
+                        <img src="images/blog2.svg" alt="Manfaat Rafting">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 15 Feb 2026 | Kesehatan</div>
+                        <h3>Ternyata Ini Manfaat Rafting untuk Kesehatan Mental!</h3>
+                        <p>Rafting bukan hanya soal fisik, tapi juga efektif untuk mengurangi stres dan meningkatkan
+                            fokus.</p>
+                        <a href="blog-detail-2.html" class="read-more">Baca Selengkapnya <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Blog 3 -->
+                <article class="blog-card" data-title="Rekomendasi Lokasi Camping Batu">
+                    <div class="blog-img">
+                        <img src="images/blog3.svg" alt="Lokasi Camping Batu">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta"><i class="far fa-calendar-alt"></i> 18 Feb 2026 | Wisata</div>
+                        <h3>7 Rekomendasi Lokasi Camping Terbaik di Batu Malang</h3>
+                        <p>Ingin menyatu dengan alam? Berikut daftar tempat camping dengan pemandangan city light
+                            terbaik.</p>
+                        <a href="blog-detail-3.html" class="read-more">Baca Selengkapnya <i
+                                class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Batu Outbound">
+                    </div>
+                    <p style="max-width: 300px; color: #ccc;">Partner terbaik untuk kegiatan outbound, gathering, dan
+                        petualangan alam di Batu Malang.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigasi</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Vendor Outbound Batu Malang. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-container">
+        <div id="backToTop" class="float-btn back-to-top" onclick="scrollToTop()">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <div class="float-btn wa-float" onclick="openWA()">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script>
+        // Simple client-side search functionality
+        document.getElementById('searchInput').addEventListener('keyup', function () {
+            let filter = this.value.toLowerCase();
+            let cards = document.querySelectorAll('.blog-card');
+
+            cards.forEach(card => {
+                let title = card.getAttribute('data-title').toLowerCase();
+                if (title.indexOf(filter) > -1) {
+                    card.style.display = "";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

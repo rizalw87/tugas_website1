@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="800" viewBox="0 0 1920 800">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="40%" style="stop-color:#16213e"/>
+      <stop offset="70%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff8a5c"/>
+    </linearGradient>
+    <linearGradient id="mtn1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d6a4f"/>
+      <stop offset="100%" style="stop-color:#1b4332"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#40916c"/>
+      <stop offset="100%" style="stop-color:#2d6a4f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd166"/>
+      <stop offset="100%" style="stop-color:#ff8a5c;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="800" fill="url(#sky)"/>
+  <circle cx="960" cy="480" r="120" fill="url(#sun)" opacity="0.6"/>
+  <circle cx="960" cy="500" r="50" fill="#ffd166" opacity="0.9"/>
+  <polygon points="0,500 200,250 400,400 600,200 800,350 1000,180 1200,300 1400,220 1600,350 1800,280 1920,400 1920,800 0,800" fill="url(#mtn1)" opacity="0.9"/>
+  <polygon points="0,550 150,380 350,450 550,350 750,420 950,300 1150,400 1350,330 1550,420 1750,360 1920,450 1920,800 0,800" fill="url(#mtn2)" opacity="0.8"/>
+  <polygon points="0,600 100,500 300,550 500,480 700,530 900,460 1100,520 1300,470 1500,540 1700,490 1920,560 1920,800 0,800" fill="#52b788" opacity="0.7"/>
+  <polygon points="0,680 200,620 400,660 600,630 800,670 1000,640 1200,680 1400,650 1600,690 1800,660 1920,700 1920,800 0,800" fill="#2d6a4f"/>
+  <rect x="0" y="750" width="1920" height="50" fill="#1b4332"/>
+</svg>
